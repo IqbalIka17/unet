@@ -11,8 +11,8 @@ from tensorflow.keras import backend as K
 MASK_PATH = 'Masks'
 TRAIN_PATH = 'Images'
 
-mask_files = os.listdir(MASK_PATH)
-train_files = os.listdir(TRAIN_PATH)
+mask_files = []
+train_files = []
 
 # ==== ✅ Preview Dataset (JANGAN DIUBAH) ====
 for i in range(8, 12):
